@@ -8,6 +8,7 @@ body {
 }
 
 header {
+    height: 75px;
     padding-top: 10px;
     display: flex;
     width: 100%;
@@ -16,14 +17,16 @@ header {
 }
 
 .line {
-    background-color: rgb(15, 15, 15);
-    height: 80px;
-    width: 24%;
+    background-color: rgb(10, 10, 10);
+    height: 100%;
+    width: 100%;
 }
 
 .titulo {
+    padding-left: 20px;
+    padding-right: 20px;
     display: inline;
-    width: 50%;
+    height: 100%;
 }
 
 .contain {
