@@ -37,7 +37,9 @@ header {
 }
 
 .card {
-    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 10px;
     width: 310px;
     height: 200px;
@@ -45,8 +47,11 @@ header {
     margin: 10px;
 }
 
-.card-text {
-
+h2 {
+    color: whitesmoke;
+    font-size: 3rem;
+    display: inline;
+    font-family: 'Rajdhani', sans-serif;
 }
 
 @media screen and (max-width: 767px){
