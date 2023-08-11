@@ -38,8 +38,8 @@ header {
 
 .card {
     border-radius: 10px;
-    width: 180px;
-    height: 180px;
+    width: 200px;
+    height: 200px;
     background-color: rgb(10, 10, 10);
     margin: 10px;
 }
