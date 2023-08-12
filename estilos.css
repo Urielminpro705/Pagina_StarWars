@@ -29,7 +29,7 @@ header {
     height: 100%;
 }
 
-.contain {
+.container {
     flex-wrap: wrap;
     display: flex;
     justify-content: space-around;
@@ -73,6 +73,7 @@ header {
     width: 100%;
     height: 100%;
     background-color: rgb(10, 10, 10);
+    position: absolute;
     color: whitesmoke;
     font-size: 3rem;
     font-family: 'Rajdhani', sans-serif;
