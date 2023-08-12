@@ -11,7 +11,6 @@ header {
     display: block;
     height: auto;
     background-color: whitesmoke;
-    z-index: 1;
 }
 
 .article h2 {
