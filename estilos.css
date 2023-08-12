@@ -69,6 +69,7 @@ header {
 }
 
 .card-space::after {
+    font-weight: bolder;
     top: 0;
     content: "";
     display: flex;
