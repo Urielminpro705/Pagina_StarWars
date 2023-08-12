@@ -32,3 +32,15 @@ header {
 .titulo img {
     height: 100%;
 }
+
+@media screen and (max-width: 767px){
+    header {
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 526px){
+    header {
+        height: 30px;
+    }
+}
