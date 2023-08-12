@@ -37,11 +37,9 @@ header {
 }
 
 .section.conImg.img {
-    margin-left: 5px;
-    border: 2px solid black;
+    margin: 0;
     border-radius: 10px;
     float: right;
-    margin-right: 30px;
     height: 300px;
 }
 
