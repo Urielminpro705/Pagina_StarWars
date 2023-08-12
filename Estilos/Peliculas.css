@@ -12,3 +12,23 @@ header {
     height: auto;
     background-color: whitesmoke;
 }
+
+table {
+    text-align: center;
+    border: 5px solid rgb(10,10,10);
+    border-collapse: collapse;
+}
+
+td {
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 5px;
+    border: 5px solid rgb(10,10,10);
+}
+
+.col {
+    color: whitesmoke;
+    background-color: rgb(10,10,10);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
