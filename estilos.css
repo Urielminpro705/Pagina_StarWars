@@ -183,4 +183,8 @@ h1 {
         padding-top: 25px;
         padding-bottom: 25px;
     }
+
+    .bienvenida p {
+        width: 70%;
+    }
 }
