@@ -65,8 +65,8 @@ header {
     background-image: url(Imagenes/Fran.png);
 }
 
-.card-black {
-    display: flex;
+.card-space::after {
+    content: "";
     justify-content: center;
     align-items: center;
     position: absolute;
@@ -81,9 +81,29 @@ header {
     transition: 0.5s;
 }
 
-.card-black:hover {
+.card-space:hover::after {
     transform: translateY(200px);
 }
+
+/* .card-black {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(10, 10, 10);
+    position: absolute;
+    color: whitesmoke;
+    font-size: 3rem;
+    font-family: 'Rajdhani', sans-serif;
+    z-index: 1;
+    transition: 0.5s;
+} */
+
+/* .card-black:hover {
+    transform: translateY(200px);
+} */
 
 @media screen and (max-width: 767px){
     header {
