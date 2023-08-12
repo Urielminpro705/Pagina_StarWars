@@ -1,8 +1,15 @@
-* {
-    margin: 0;
-    padding: 0;
+header {
+    padding-bottom: 15px;
+    border-bottom: 2px solid rgb(204, 204, 204);
 }
 
-body {
+.container {
+    border-left: 2px solid rgb(204, 204, 204);
+    border-right: 2px solid rgb(204, 204, 204);
+    margin: auto;
+    width: 70%;
+    display: block;
+    height: 1000px;
     background-color: whitesmoke;
+    z-index: 1;
 }
