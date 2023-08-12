@@ -21,14 +21,14 @@ header {
     font-size: 3rem;
 }
 
-.section p {
+.section {
+    margin-bottom: 30px;
     margin-left: 30px;
     margin-right: 30px;
-    font-size: 1.5rem;
 }
 
-.section div {
-    padding-bottom: 30px;
+.section p {
+    font-size: 1.5rem;
 }
 
 .section h3 {
@@ -52,5 +52,10 @@ header {
 
     .article {
         width: 95%;
+    }
+
+    .section {
+        margin-right: 10px;
+        margin-left: 10px;
     }
 }
