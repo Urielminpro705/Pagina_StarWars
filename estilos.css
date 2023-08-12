@@ -37,6 +37,7 @@ header {
 }
 
 .card-space{
+    border: transparent;
     position: relative;
     justify-content: center;
     align-items: center;
@@ -47,6 +48,8 @@ header {
     margin: 10px;
     background-size: cover;
     background-position: center;
+    cursor: pointer;
+    box-shadow: 6px 6px 0px 0px rgb(157, 157, 157);
 }
 
 .foto-peli {
@@ -66,7 +69,9 @@ header {
 }
 
 .card-space::after {
+    top: 0;
     content: "";
+    display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
@@ -78,11 +83,28 @@ header {
     font-size: 3rem;
     font-family: 'Rajdhani', sans-serif;
     z-index: 1;
-    transition: 0.5s;
+    transition: 0.4s;
+    cursor: pointer;
 }
 
 .card-space:hover::after {
     transform: translateY(200px);
+}
+
+.foto-peli::after {
+    content: "PELICULAS";
+}
+
+.foto-series::after {
+    content: "SERIES";
+}
+
+.foto-juegos::after {
+    content: "VIDEOJUEGOS";
+}
+
+.foto-fran::after {
+    content: "FRANQUICIA";
 }
 
 /* .card-black {
