@@ -144,9 +144,11 @@ header {
 }
 
 .bienvenida {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     margin-top: 30px;
-    display: block;
     height: 100px;
     background-color: transparent;
 }
