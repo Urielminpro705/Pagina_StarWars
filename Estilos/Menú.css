@@ -115,7 +115,7 @@ h1 {
 }
 
 @media screen and (max-width: 526px){
-    .contain {
+    .container {
         padding-top: 25px;
         padding-bottom: 25px;
     }
