@@ -99,6 +99,10 @@ footer a {
     align-items: center;
 }
 
+.bibliografia {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 @media screen and (max-width: 767px){
     header {
         height: 50px;
