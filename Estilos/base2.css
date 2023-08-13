@@ -86,6 +86,10 @@ td {
 }
 
 @media screen and (max-width: 526px){
+    .section iframe {
+        width: 100%;
+    }
+
     header {
         height: 30px;
     }
