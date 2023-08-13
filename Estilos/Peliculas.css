@@ -55,16 +55,18 @@ td {
     justify-content: center;
 }
 
-.section.container {
+.container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .card {
+    margin: 12px;
     border-radius: 10px;
     overflow: hidden;
     display: flex;
+    align-items: center;
     flex-direction: column;
     width: 300px;
     height: 169px;
@@ -77,18 +79,31 @@ td {
     height: 170px;
 }
 
+.card h4 {
+    font-weight: bold;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
 .card p {
     text-align: center;
     font-size: 1rem;
     color: rgb(10,10,10);
-    width: 100%;
+    width: 280px;
     height: 20px;
 }
 
 .card:hover {
     transform: translateY(-10px);
-    height: 400px;
-    box-shadow: 0px 0px 8px 1px rgb(164, 164, 164);
+    height: 350px;
+    box-shadow: 0px 0px 10px 1px rgb(164, 164, 164);
+}
+
+.section h3 {
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 20px;
+    text-align: center;
 }
 
 @media screen and (max-width: 526px){
