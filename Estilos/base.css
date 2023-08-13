@@ -67,4 +67,14 @@ footer a {
     header {
         height: 30px;
     }
+
+    footer a {
+        margin-right: 10px;
+        font-size: 1rem;
+    }
+
+    footer p {
+        margin-left: 10px;
+        font-size: 1rem;
+    }
 }
