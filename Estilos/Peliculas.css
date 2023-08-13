@@ -52,9 +52,10 @@ td {
     font-size: 1.3rem;
 }
 
-.section.table {
+.section.flex {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .container {
@@ -106,6 +107,10 @@ td {
     font-size: 2rem;
     padding: 20px;
     text-align: center;
+}
+
+.section ol {
+    font-size: 1.3rem;
 }
 
 @media screen and (max-width: 526px){
