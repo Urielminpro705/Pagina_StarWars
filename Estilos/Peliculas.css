@@ -46,6 +46,15 @@ td {
     font-size: 3rem;
 }
 
+.section p {
+    font-size: 1.3rem;
+}
+
+.section.table {
+    display: flex;
+    justify-content: center;
+}
+
 @media screen and (max-width: 526px){
     header {
         height: 30px;
