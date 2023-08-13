@@ -69,6 +69,8 @@ td {
 
 .section ol {
     font-size: 1.3rem;
+    margin-left: 20px;
+    margin-right: 10px;
 }
 
 .section iframe {
